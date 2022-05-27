@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap");
+
+html {
+  font-size: 62.5%;
+  font-family: "Noto Sans Display", sans-serif;
+}
+
+section {
+  padding: 10rem;
+}
+
+h1 {
+  font-variant-caps: unicase;
+  color: lightgrey;
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  margin: 0.5rem -8.5rem;
+  font-weight: bold;
+  letter-spacing: 8px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.items {
+  margin: 5px;
+  display: inline;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.grey {
+  padding: 5px;
+  margin: 0 -9rem 0 -9rem;
+  background-color: lightgrey;
+}
+
+#placeholder {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: white;
+  max-width: 85%;
+}
+
+#description {
+  font-size: 1rem;
+  font-family: serif;
+  padding: 0 15px 0 15px;
+  color: darkslategrey;
+  flex-grow: 4;
+}
+
+
+@media only screen and (min-width: 719px) {
+  h1 {
+    margin:0 0 1rem 0;
+    font-size: 3rem;
+  }
+  .grey {
+    margin: 0;
+  }
+  li a {
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
+
+  #description {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 911px) {
+  section {
+    padding: 10rem 25rem;
+  }
+  
+  h1 {
+    margin: 1rem 0 0 2rem;
+  }
+  .grey {
+    margin: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 1231px) {
+  .grey {
+    margin: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  section {
+    padding: 10rem 40rem;
+  }
+  .grey {
+    padding: 2rem;
+  }
+}
